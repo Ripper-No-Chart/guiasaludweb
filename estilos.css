@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+.borde {
+  border: solid 3px #000000;
+}
+
+header,
+footer,
+article {
+  background-color: #2973a2;
+  color: #ffffff;
+}
+
+header a {
+  color: #21e4f1;
+}
+
+footer a {
+  color: #21e4f1;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  color: #000000;
+}
+
+h4 {
+  background-color: #364962;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  background-color: #364962;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav a:hover,
+header a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 150px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  font-size: 80px;
+  text-shadow: 3px 2px black;
+}
+
+.btn-whatsapp a i {
+  color: #4ee45e;
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+@media only screen and (max-width: 1281px) {
+  .btn-whatsapp {
+    right: 15px;
+    bottom: 100px;
+  }
+}
